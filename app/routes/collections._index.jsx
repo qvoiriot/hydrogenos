@@ -64,7 +64,7 @@ function CollectionItem({collection, index}) {
           alt={collection.image.altText || collection.title}
           aspectRatio="1/1"
           data={collection.image}
-          loading={index < 3 ? 'eager' : undefined}
+          loading={index < 4 ? 'eager' : undefined}
         />
       )}
       <h5>{collection.title}</h5>
